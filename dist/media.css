@@ -1,0 +1,46 @@
+@media screen and (max-device-width: 1024px) and (orientation: landscape) {
+  .page-1 {
+    height: auto;
+    width: 100%;
+  }
+
+  .wrapper-4 {
+    margin-bottom: 10rem;
+  }
+
+  .page-1 {
+    padding-bottom: 30rem;
+  }
+}
+
+@media screen and (max-device-width: 1000px),
+  (max-device-height: 1024px) and (orientation: landscape) {
+  .page-1 {
+    height: auto;
+    width: 100%;
+  }
+
+  .wrapper-4 {
+    margin-bottom: 10rem;
+  }
+
+  .page-1 {
+    padding-bottom: 30rem;
+  }
+}
+
+@media screen and (max-device-width: 1000px),
+  (max-device-height: 1000px) and (orientation: portrait) {
+  .page-1 {
+    height: auto;
+    width: 100%;
+  }
+
+  .wrapper-4 {
+    margin-bottom: 5rem;
+  }
+
+  .page-1 {
+    padding-bottom: 30rem;
+  }
+}
